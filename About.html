@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+    <link rel="shortcut icon" href="image/JS Roadlines logo.jpeg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	
+</head>
+<body>
+
+  <section class="header">
+    <nav>
+        <a href="index.html"><img src="image/JS Roadlines logo.jpeg" id="logo-img"></a>
+
+        <div class="nav-links" id="navLinks">
+          <span class="icon" onclick="hidemenu()">&#10005;</span>  
+          <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact_page.html">Contact</a></li>
+            </ul>
+        </div> 
+        <span class="icon" onclick="showmenu()">&#9776;</span>
+    </nav>
+
+	<div class="wrapper">
+		<div class="">
+			<div class="">
+				<h1>Crafting Solution for a Better Tomorrow</h1>
+				
+				<h4>UNLOCKING SEAMLESS SUPPLY CHAIN SOLUTIONS</h4>
+				<P>At JS ROADLINES, we are dedicated to revolutionizing the logistics industry with innovative strategies, cutting-edge tecnology, and a commitment to unparalleled efficiency.</P>
+				<p>Our mission is to streamline processes, optimize routes with our self-owned fleet, and deliver excellence every step of the way. </p>
+				<p>Join us on a journey of seamless logistics and  let us be your trusted partner in unlocking the full potential of your supply chain.</p>
+			</div>
+
+			<div class="partners-slider">
+				<h3>Our Partners</h3>
+				<br/>
+				<div class="slide-track">
+					<div class="slide"><img src="image/Flipkart.png" alt="Flipkart" /></div>
+					<div class="slide"><img src="image/Amazon.png" alt="Amazon" /></div>
+					<div class="slide"><img src="image/Shiprocket.png" alt="Shiprocket" /></div>
+					<div class="slide"><img src="image/Ecom.jfif" alt="Ecom Express" /></div>
+					<div class="slide"><img src="image/shadowfox.png" alt="shadowfox" /></div>
+					<div class="slide"><img src="image/swiggy.jfif" alt="swiggy" /></div>
+					<div class="slide"><img src="image/myntra.jfif" alt="myntra" /></div>
+			    </div>
+			</div>
+			<br/>
+			<div class="our-services">
+				<h3>OUR SERVICES</h3>
+				<br/>
+				<p>
+					At JS Roadline, we offer a wide range of logistics services, including transportation and distribution. Our customized solutions are designed to meet the unique needs of each client.
+				</p>
+			</div>
+			<br/>
+
+			<div class="our-story">
+				<h3>OUR STORY</h3>
+				<br/>
+				<p>
+					Founded in 2024, JS Roadlines was born out of a passion for logistics and a desire to provide better solutions for bussinesses. Since then, we have grown into a trusted partner for companies of
+					all sizes across industries.
+				</p>
+			</div>
+            <br/>
+
+			<div class="our-team">
+				<h3>OUR TEAM</h3>
+				<br/>
+				<p>
+					Our team is made up of experienced logistics professionals and fleet members who are dedicated to providing exceptional service. We work together to ensure every client receives the best solutions and support.
+				</p>
+			</div>
+			<br/>
+            
+			<div class="contact">
+				<h2>CONTACT US</h2>
+			<div class="whatsapp-container">
+				<a href="https://wa.me/919740623488s" target="_blank" class="whatsapp-button">
+				  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-logo">
+				  Message on WhatsApp
+				</a>
+			  </div>
+			</div>
+				
+			<div class="address">
+				<h2>JS Roadlines Pvt Ltd</h2>
+				<p>Soukya, Bengaluru, Karnataka, India</p>
+				<p>+91 9740623488</p>
+				<p><a href="mailto:jsroadlines89@gmail.com">jsroadlines89@gmail.com</a></p>
+				<p>&copy; 2025 JS Roadlines Pvt Ltd. All rights reserved.</p>
+			</div>
+				
+	
+	</section>
+	
+	</body>
+	<!-- Javascript for this Web page -->
+	<script src=" https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendmail(){
+		Email.send({}).then(
+	message => alert("Thanks for filling out our form!")
+);
+		}
+	</script>
+	<script>
+	var navLinks= document.getElementById("navLinks");
+
+function showmenu(){
+    navLinks.style.right="0";
+}   
+function hidemenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+</html>
