@@ -272,7 +272,7 @@ h3{
 .ctn{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://github.com/Akash8Gowda18/JS-Roadlines/blob/main/image/JS_lorry.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://github.com/Akash8Gowda18/JS-Roadlines/blob/main/image/JS_lorry.jpeg?raw=true);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
